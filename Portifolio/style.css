@@ -324,7 +324,7 @@ margin: 4rem 3rem;
 
 }
 
-.button-cta button{
+.button-cta a{
 display: inline-block;
 width: 100%;
 max-width: 172px;
@@ -336,14 +336,19 @@ font-weight: 700;
 letter-spacing: .15rem;
 border-radius: 10px;
 cursor: pointer;
-color: var(--color-black);
-background-color: #7d04a1;
-
 }
 
 .button-cta button:hover{
 transition: all .3s ease;
 filter: brightness(.8);
+}
+
+#information {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: var(--color-black);
 }
 
 @keyframes written_text {
