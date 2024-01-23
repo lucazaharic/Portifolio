@@ -1,3 +1,3 @@
 # Portifolio
-Portfolio em HTML ainda em desenvolvimento
+Portfolio em HTML finalizado.
 
